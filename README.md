@@ -1,4 +1,29 @@
-# React-Redux-Flask #
+# CRM-Backend-Flask
+
+## Backend Set Up
+virtualenv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+
+
+# DB Set Up
+* export DATABASE_URL="mysql+mysqlconnector://<user>:<password>@localhost/evolv"
+* python3 manage.py db migrate
+* python3 manage.py db upgrade
+ 
+
+
+
+
+
+
+
+
+
+
+******************
+
+React-Redux-Flask Doc
 
 Boilerplate application for a Flask JWT Backend and a React/Redux Front-End with Material UI.
 
